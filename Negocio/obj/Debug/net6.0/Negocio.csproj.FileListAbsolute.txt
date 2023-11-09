@@ -1,0 +1,45 @@
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\bin\Debug\net6.0\Negocio.deps.json
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\bin\Debug\net6.0\Negocio.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\bin\Debug\net6.0\Negocio.pdb
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\bin\Debug\net6.0\Datos.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\bin\Debug\net6.0\Datos.pdb
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\refint\Negocio.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\Negocio.pdb
+C:\Users\Mateo\Desktop\Proyecto TESTER\Negocio\obj\Debug\net6.0\ref\Negocio.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\refint\Negocio.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.pdb
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\bin\Debug\net6.0\Negocio.deps.json
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\bin\Debug\net6.0\Negocio.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\bin\Debug\net6.0\Negocio.pdb
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\bin\Debug\net6.0\Datos.dll
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\bin\Debug\net6.0\Datos.pdb
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
+C:\Users\Mateo\Desktop\Proyecto TESTER - copia\Negocio\obj\Debug\net6.0\ref\Negocio.dll
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\bin\Debug\net6.0\Negocio.deps.json
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\bin\Debug\net6.0\Negocio.dll
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\bin\Debug\net6.0\Negocio.pdb
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\bin\Debug\net6.0\Datos.dll
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\bin\Debug\net6.0\Datos.pdb
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.dll
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\refint\Negocio.dll
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\Negocio.pdb
+C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Debug\net6.0\ref\Negocio.dll
