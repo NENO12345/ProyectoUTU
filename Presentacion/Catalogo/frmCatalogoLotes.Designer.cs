@@ -46,6 +46,7 @@
             data_grid_lotes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             data_grid_lotes.Columns.AddRange(new DataGridViewColumn[] { ID, Categoria, Base, Precio_final, Vendido });
             data_grid_lotes.Location = new Point(1, 0);
+            data_grid_lotes.MultiSelect = false;
             data_grid_lotes.Name = "data_grid_lotes";
             data_grid_lotes.ReadOnly = true;
             data_grid_lotes.RowTemplate.Height = 25;

@@ -339,6 +339,7 @@
             Controls.Add(dataGridView1);
             MaximizeBox = false;
             Name = "frmAdministrarPagosRematador";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmAdministrarPagosRematador";
             Load += frmAdministrarPagosRematador_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

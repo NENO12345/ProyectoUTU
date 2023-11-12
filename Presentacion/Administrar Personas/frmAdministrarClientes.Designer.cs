@@ -83,6 +83,7 @@
             data_grid_clientes.Margin = new Padding(3, 2, 3, 2);
             data_grid_clientes.MultiSelect = false;
             data_grid_clientes.Name = "data_grid_clientes";
+            data_grid_clientes.ReadOnly = true;
             data_grid_clientes.RowHeadersWidth = 51;
             data_grid_clientes.RowTemplate.Height = 29;
             data_grid_clientes.ShowEditingIcon = false;
@@ -148,6 +149,7 @@
             // 
             Estado.HeaderText = "Estado";
             Estado.Name = "Estado";
+            Estado.ReadOnly = true;
             // 
             // btn_agregar
             // 

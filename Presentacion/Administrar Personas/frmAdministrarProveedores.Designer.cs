@@ -81,6 +81,7 @@
             data_grid_proveedores.Margin = new Padding(3, 2, 3, 2);
             data_grid_proveedores.MultiSelect = false;
             data_grid_proveedores.Name = "data_grid_proveedores";
+            data_grid_proveedores.ReadOnly = true;
             data_grid_proveedores.RowHeadersWidth = 51;
             data_grid_proveedores.RowTemplate.Height = 29;
             data_grid_proveedores.ShowEditingIcon = false;
@@ -146,11 +147,13 @@
             // 
             Empresa.HeaderText = "Empresa";
             Empresa.Name = "Empresa";
+            Empresa.ReadOnly = true;
             // 
             // Estado
             // 
             Estado.HeaderText = "Estado";
             Estado.Name = "Estado";
+            Estado.ReadOnly = true;
             // 
             // pnl_informacion
             // 

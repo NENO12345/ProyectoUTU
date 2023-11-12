@@ -62,7 +62,9 @@
             data_grid_animal.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             data_grid_animal.Columns.AddRange(new DataGridViewColumn[] { ID, Peso_Promedio, Categoria, Descripcion, Imagen, Disponibilidad });
             data_grid_animal.Location = new Point(-4, 0);
+            data_grid_animal.MultiSelect = false;
             data_grid_animal.Name = "data_grid_animal";
+            data_grid_animal.ReadOnly = true;
             data_grid_animal.RowTemplate.Height = 25;
             data_grid_animal.ShowCellErrors = false;
             data_grid_animal.ShowRowErrors = false;
@@ -74,34 +76,40 @@
             // 
             ID.HeaderText = "ID";
             ID.Name = "ID";
+            ID.ReadOnly = true;
             ID.Width = 50;
             // 
             // Peso_Promedio
             // 
             Peso_Promedio.HeaderText = "Peso promedio";
             Peso_Promedio.Name = "Peso_Promedio";
+            Peso_Promedio.ReadOnly = true;
             Peso_Promedio.Width = 110;
             // 
             // Categoria
             // 
             Categoria.HeaderText = "Categoria";
             Categoria.Name = "Categoria";
+            Categoria.ReadOnly = true;
             // 
             // Descripcion
             // 
             Descripcion.HeaderText = "Descripcion";
             Descripcion.Name = "Descripcion";
+            Descripcion.ReadOnly = true;
             // 
             // Imagen
             // 
             Imagen.HeaderText = "Imagen";
             Imagen.Name = "Imagen";
+            Imagen.ReadOnly = true;
             Imagen.Visible = false;
             // 
             // Disponibilidad
             // 
             Disponibilidad.HeaderText = "Disponibilidad";
             Disponibilidad.Name = "Disponibilidad";
+            Disponibilidad.ReadOnly = true;
             // 
             // pnl_informacion
             // 
@@ -236,7 +244,7 @@
             MaximizeBox = false;
             Name = "frmVerLote";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "frmVerLote";
+            Text = "Lote animal";
             Load += frmVerLote_Load;
             ((System.ComponentModel.ISupportInitialize)data_grid_animal).EndInit();
             pnl_informacion.ResumeLayout(false);

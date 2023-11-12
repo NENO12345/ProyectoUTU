@@ -10,3 +10,15 @@ C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Datos\obj\R
 C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Datos\obj\Release\net6.0\refint\Persistencia.dll
 C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Datos\obj\Release\net6.0\Persistencia.pdb
 C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Datos\obj\Release\net6.0\ref\Persistencia.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\bin\Release\net6.0\Persistencia.deps.json
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\bin\Release\net6.0\Persistencia.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\bin\Release\net6.0\Persistencia.pdb
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\Persistencia.AssemblyInfo.cs
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\Persistencia.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\refint\Persistencia.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\Persistencia.pdb
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Datos\obj\Release\net6.0\ref\Persistencia.dll

@@ -182,7 +182,7 @@ namespace Datos.Repositorios.Usuarios
             {
                 conn = Conexion.obtenerConexion();
 
-                string MySQLSentence = "UPDATE empleados SET id_permiso = @permiso, usuario = @user, contrasena = @pass, nombre = @nombre, apellido = @apellido, telefono = @telefono, direccion = @direccion, puesto = @puesto WHERE id_empleado = @id";
+                string MySQLSentence = "UPDATE empleados SET id_permiso = @permiso, usuario = @user, contrasena = @pass, nombre = @nombre, apellido = @apellido, telefono = @telefono, direccion = @direccion, puesto = @puesto WHERE id_empleado = @id AND estado = @estado";
                 MySqlCommand modificarUsuario = new MySqlCommand(MySQLSentence, conn);
 
                 modificarUsuario.Parameters.AddWithValue("@permiso", empVO.permiso);

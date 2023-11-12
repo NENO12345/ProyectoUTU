@@ -242,13 +242,13 @@ namespace Programacion_Login
                     switch (Convert.ToString(cmb_puesto.SelectedItem))
                     {
                         case "Administrador":
-                            emp = new Empleado(0, txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
+                            emp = new Empleado(5, Convert.ToInt32(txt_id.Text), txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
                             break;
                         case "Encargado":
-                            emp = new Empleado(1, txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
+                            emp = new Empleado(4, Convert.ToInt32(txt_id.Text), txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
                             break;
                         case "Gestor de remates":
-                            emp = new Empleado(2, txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
+                            emp = new Empleado(3, Convert.ToInt32(txt_id.Text) ,txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
                             break;
                     }
                     bool confirma = emp.modificarUsuario(emp);

@@ -13,3 +13,18 @@ C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj
 C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Release\net6.0\refint\Logica.dll
 C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Release\net6.0\Logica.pdb
 C:\Users\Mateo\Desktop\a\Proyecto programacion\Proyecto programacion\Negocio\obj\Release\net6.0\ref\Logica.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\bin\Release\net6.0\Logica.deps.json
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\bin\Release\net6.0\Logica.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\bin\Release\net6.0\Logica.pdb
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\bin\Release\net6.0\Persistencia.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\bin\Release\net6.0\Persistencia.pdb
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.csproj.AssemblyReference.cache
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.AssemblyInfoInputs.cache
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.AssemblyInfo.cs
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.csproj.CopyComplete
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\refint\Logica.dll
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\Logica.pdb
+C:\Users\Mateo\Downloads\expo\ProyectoUTU-main\ProyectoUTU-main\Negocio\obj\Release\net6.0\ref\Logica.dll
