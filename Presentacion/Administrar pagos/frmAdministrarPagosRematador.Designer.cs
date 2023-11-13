@@ -337,6 +337,7 @@
             ClientSize = new Size(1089, 657);
             Controls.Add(tabControl1);
             Controls.Add(dataGridView1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmAdministrarPagosRematador";
             StartPosition = FormStartPosition.CenterScreen;

@@ -323,6 +323,7 @@
             ClientSize = new Size(1089, 657);
             Controls.Add(data_grid_maquinaria);
             Controls.Add(pnl_informacion);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmAdministrarMaquinaria";
             StartPosition = FormStartPosition.CenterScreen;

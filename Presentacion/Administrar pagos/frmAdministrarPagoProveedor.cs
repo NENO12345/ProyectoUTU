@@ -86,6 +86,7 @@ namespace Programacion_Login.Administrar_pagos
                 if (confirma)
                 {
                     MessageBox.Show("Pago ingresado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -107,8 +108,6 @@ namespace Programacion_Login.Administrar_pagos
             this.txt_paypal_idd.Text = row.Cells[0].Value.ToString();
             this.txt_paypal_monto.Text = row.Cells[1].Value.ToString();
             this.txt_correo.Text = row.Cells[3].Value.ToString();
-
-
         }
 
         private void btn_eliminar_Click(object sender, EventArgs e)
@@ -121,7 +120,7 @@ namespace Programacion_Login.Administrar_pagos
                     Pago pago = new Pago(Convert.ToInt32(txt_paypal_idd.Text));
                     pago.eliminarPago(pago);
                     MessageBox.Show("Se elimino el pago", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                    limpiarCampos();
                 }
                 else
                 {
@@ -157,6 +156,14 @@ namespace Programacion_Login.Administrar_pagos
 
             }
 
+        }
+
+        private void limpiarCampos()
+        {
+            txt_paypal_idd.Clear();
+            txt_correo.Clear();
+            txt_paypal_monto.Clear();
+            cmb_proveedor.SelectedIndex = -1;
         }
     }
 }

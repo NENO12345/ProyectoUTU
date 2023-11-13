@@ -286,6 +286,7 @@
             ClientSize = new Size(1089, 657);
             Controls.Add(pnl_informacion);
             Controls.Add(data_grid_animal);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frnAdministrarAnimal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestionar animal";

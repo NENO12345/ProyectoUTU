@@ -63,6 +63,7 @@ namespace Programacion_Login.Administrar_inventario
                     if (confirma)
                     {
                         MessageBox.Show("Animal agregado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
                     }
                     else
                     {
@@ -79,35 +80,36 @@ namespace Programacion_Login.Administrar_inventario
 
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            /*try
-            {*/
-
-            if (verificar_campos())
+            try
             {
-                // Convierto la imagen en un array de bytes
-                byte[] imagen = Convertir_Imagen_Bytes(pib_imagen.Image);
 
-                //Creo el objeto con los atributos
-                Animal ani = new Animal(Convert.ToInt32(txt_id.Text), Convert.ToInt32(txt_pesoPromedio.Text), Convert.ToString(cmb_categoria.SelectedItem), txt_descripcion.Text, imagen, false, true, 0);
-                bool confirma = ani.modificarAnimal(ani);
-                if (confirma)
+                if (verificar_campos())
                 {
-                    MessageBox.Show("Animal modificado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Error al modificar animal", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                    // Convierto la imagen en un array de bytes
+                    byte[] imagen = Convertir_Imagen_Bytes(pib_imagen.Image);
+
+                    //Creo el objeto con los atributos
+                    Animal ani = new Animal(Convert.ToInt32(txt_id.Text), Convert.ToInt32(txt_pesoPromedio.Text), Convert.ToString(cmb_categoria.SelectedItem), txt_descripcion.Text, imagen, false, true, 0);
+                    bool confirma = ani.modificarAnimal(ani);
+                    if (confirma)
+                    {
+                        MessageBox.Show("Animal modificado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al modificar animal", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
 
 
-                cargoGrilla();
+                    cargoGrilla();
+                }
             }
-            /*}
             catch (Exception ex)
             {
                 MessageBox.Show("Error al modificar animal", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); // En caso de ocurrir un error muestra un cartel
 
-            }*/
+            }
         }
 
         public static byte[] Convertir_Imagen_Bytes(System.Drawing.Image imageIn)
@@ -162,6 +164,7 @@ namespace Programacion_Login.Administrar_inventario
                     if (confirma)
                     {
                         MessageBox.Show("Animal borrado con éxito", "Borrado con éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
                     }
                     else
                     {
@@ -171,6 +174,15 @@ namespace Programacion_Login.Administrar_inventario
                 }
 
             }
+        }
+
+        private void limpiarCampos()
+        {
+            txt_id.Clear();
+            txt_descripcion.Clear();
+            txt_pesoPromedio.Clear();
+            cmb_categoria.SelectedIndex = -1;
+            pib_imagen.Image = null;
         }
     }
 }

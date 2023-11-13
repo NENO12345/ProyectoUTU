@@ -371,6 +371,7 @@
             Controls.Add(lbl_tituloform);
             Controls.Add(pnl_informacion);
             Controls.Add(data_grid_rematadores);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmAdministrarRematadores";
             StartPosition = FormStartPosition.CenterScreen;

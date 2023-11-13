@@ -58,6 +58,7 @@ namespace Programacion_Login.presentacion
                     if (confirma)
                     {
                         MessageBox.Show("Usuario borrado con éxito", "Borrado con éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
                     }
                     else
                     {
@@ -91,6 +92,7 @@ namespace Programacion_Login.presentacion
                     if (confirma)
                     {
                         MessageBox.Show("Usuario creado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
                     }
                     else
                     {
@@ -119,6 +121,7 @@ namespace Programacion_Login.presentacion
                     if (confirma)
                     {
                         MessageBox.Show("Cliente modificado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
                     }
                     else
                     {
@@ -191,7 +194,18 @@ namespace Programacion_Login.presentacion
             }
         }
 
-
+        private void limpiarCampos()
+        {
+            txt_login.Clear();
+            txt_pass.Clear();
+            txt_repassword.Clear();
+            txt_nombre.Clear();
+            txt_apellido.Clear();
+            txt_correo.Clear();
+            txt_id.Clear();
+            txt_telefono.Clear();
+            txt_direccion.Clear();
+        }
 
 
 

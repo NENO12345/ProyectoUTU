@@ -102,6 +102,7 @@
             ClientSize = new Size(524, 657);
             Controls.Add(button1);
             Controls.Add(data_grid_lotes);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmCatalogoLotes";
             StartPosition = FormStartPosition.CenterScreen;

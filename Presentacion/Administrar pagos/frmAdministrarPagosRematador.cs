@@ -55,6 +55,7 @@ namespace Programacion_Login.Administrar_pagos
                 if (confirma)
                 {
                     MessageBox.Show("Pago ingresado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -107,6 +108,7 @@ namespace Programacion_Login.Administrar_pagos
                     Abono abono = new Abono(Convert.ToInt32(txt_paypal_idd.Text));
                     abono.eliminarPago(abono);
                     MessageBox.Show("Se elimino el pago", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
 
                 }
                 else
@@ -141,8 +143,15 @@ namespace Programacion_Login.Administrar_pagos
             {
                 MessageBox.Show("Primero debe seleccionar un pago", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
         }
+
+        private void limpiarCampos()
+        {
+            txt_paypal_idd.Clear();
+            txt_correo.Clear();
+            txt_paypal_monto.Clear();
+            cmb_rematador.SelectedIndex = -1;
+        }
+
     }
 }

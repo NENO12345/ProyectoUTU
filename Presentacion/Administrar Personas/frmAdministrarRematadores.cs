@@ -129,6 +129,7 @@ namespace Programacion_Login.Administrar_Personas
                     bool confirma = rem.agregarUsuario(rem);
                     cargoGrilla();
                     MessageBox.Show("Usuario creado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
             }
             catch (Exception ex)
@@ -160,6 +161,8 @@ namespace Programacion_Login.Administrar_Personas
                 Rematador rem = new Rematador(Convert.ToInt32(txt_id.Text), txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, txt_direccion.Text, Convert.ToInt32(txt_telefono.Text));
                 bool confirma = rem.modificarUsuario(rem);
                 cargoGrilla();
+                limpiarCampos();
+                MessageBox.Show("Usuario modificado con éxito", "Modificado con éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -173,6 +176,7 @@ namespace Programacion_Login.Administrar_Personas
                 if (confirma)
                 {
                     MessageBox.Show("Usuario borrado con éxito", "Borrado con éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -184,6 +188,18 @@ namespace Programacion_Login.Administrar_Personas
             {
 
             }
+        }
+
+        private void limpiarCampos()
+        {
+            txt_user.Clear();
+            txt_pass.Clear();
+            txt_repassword.Clear();
+            txt_nombre.Clear();
+            txt_apellido.Clear();
+            txt_id.Clear();
+            txt_telefono.Clear();
+            txt_direccion.Clear();
         }
     }
 }

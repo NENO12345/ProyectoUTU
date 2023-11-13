@@ -73,6 +73,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(440, 657);
             Controls.Add(dataGridView1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmHistorialRemates";
             StartPosition = FormStartPosition.CenterScreen;

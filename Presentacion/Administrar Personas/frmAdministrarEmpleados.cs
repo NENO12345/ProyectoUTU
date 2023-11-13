@@ -201,6 +201,7 @@ namespace Programacion_Login
                     emp.agregarUsuario(emp);
                     cargoGrilla();
                     MessageBox.Show("Usuario creado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
             }
             catch (Exception ex)
@@ -248,13 +249,14 @@ namespace Programacion_Login
                             emp = new Empleado(4, Convert.ToInt32(txt_id.Text), txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
                             break;
                         case "Gestor de remates":
-                            emp = new Empleado(3, Convert.ToInt32(txt_id.Text) ,txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
+                            emp = new Empleado(3, Convert.ToInt32(txt_id.Text), txt_user.Text, txt_pass.Text, txt_nombre.Text, txt_apellido.Text, Convert.ToInt32(txt_telefono.Text), txt_direccion.Text, Convert.ToString(cmb_puesto.SelectedItem), true);
                             break;
                     }
                     bool confirma = emp.modificarUsuario(emp);
                     if (confirma)
                     {
                         MessageBox.Show("Empleado modificado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
                     }
                     else
                     {
@@ -280,6 +282,7 @@ namespace Programacion_Login
                 if (confirma)
                 {
                     MessageBox.Show("Usuario borrado con éxito", "Borrado con éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -292,5 +295,19 @@ namespace Programacion_Login
 
             }
         }
+
+        private void limpiarCampos()
+        {
+            txt_user.Clear();
+            txt_pass.Clear();
+            txt_repassword.Clear();
+            txt_nombre.Clear();
+            txt_apellido.Clear();
+            cmb_puesto.SelectedIndex = -1;
+            txt_id.Clear();
+            txt_telefono.Clear();
+            txt_direccion.Clear();
+        }
+
     }
 }

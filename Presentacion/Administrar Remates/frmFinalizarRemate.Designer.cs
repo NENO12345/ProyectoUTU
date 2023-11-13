@@ -140,6 +140,7 @@
             Controls.Add(lbl_id);
             Controls.Add(txt_id);
             Controls.Add(dataGridView1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmFinalizarRemate";
             StartPosition = FormStartPosition.CenterScreen;

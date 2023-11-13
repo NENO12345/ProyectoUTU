@@ -430,6 +430,7 @@
             Controls.Add(lbl_tituloform);
             Controls.Add(pnl_informacion);
             Controls.Add(data_grid_proveedores);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmAdministrarProveedores";
             StartPosition = FormStartPosition.CenterScreen;

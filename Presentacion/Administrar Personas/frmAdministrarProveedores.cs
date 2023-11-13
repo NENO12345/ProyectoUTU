@@ -72,6 +72,7 @@ namespace Programacion_Login.Administrar_Personas
                     bool confirma = prov.agregarUsuario(prov);
                     cargoGrilla();
                     MessageBox.Show("Usuario creado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
             }
             catch (Exception ex)
@@ -134,6 +135,7 @@ namespace Programacion_Login.Administrar_Personas
                 if (confirma)
                 {
                     MessageBox.Show("Proveedor modificado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -154,6 +156,7 @@ namespace Programacion_Login.Administrar_Personas
                 if (confirma)
                 {
                     MessageBox.Show("Usuario borrado con éxito", "Borrado con éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -166,5 +169,21 @@ namespace Programacion_Login.Administrar_Personas
 
             }
         }
+
+        private void limpiarCampos()
+        {
+            txt_user.Clear();
+            txt_pass.Clear();
+            txt_repassword.Clear();
+            txt_nombre.Clear();
+            txt_apellido.Clear();
+            txt_empresa.Clear();
+            txt_id.Clear();
+            txt_correo.Clear();
+            txt_telefono.Clear();
+            txt_direccion.Clear();
+        }
+
+
     }
 }

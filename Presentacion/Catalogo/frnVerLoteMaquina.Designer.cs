@@ -277,6 +277,7 @@
             ClientSize = new Size(1089, 657);
             Controls.Add(pnl_informacion);
             Controls.Add(data_grid_maquinaria);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "frnVerLoteMaquina";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Lote maquina";

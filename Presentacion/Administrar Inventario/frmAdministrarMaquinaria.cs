@@ -78,6 +78,7 @@ namespace Programacion_Login.Administrar_inventario
                 if (confirma)
                 {
                     MessageBox.Show("Maquina agregada con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -131,6 +132,7 @@ namespace Programacion_Login.Administrar_inventario
                 if (confirma)
                 {
                     MessageBox.Show("Maquina modificada con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
                 }
                 else
                 {
@@ -179,6 +181,7 @@ namespace Programacion_Login.Administrar_inventario
                     if (confirma)
                     {
                         MessageBox.Show("Maquina borrada con éxito", "Borrado con éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        limpiarCampos();
                     }
                     else
                     {
@@ -190,6 +193,17 @@ namespace Programacion_Login.Administrar_inventario
             }
 
 
+        }
+
+        private void limpiarCampos()
+        {
+            txt_id.Clear();
+            txt_kilometraje.Clear();
+            txt_marca.Clear();
+            txt_medida_kilometraje.Clear();
+            txt_modelo.Clear();
+            cmb_tipo.SelectedIndex = -1;
+            pib_imagen.Image = null;
         }
     }
 }

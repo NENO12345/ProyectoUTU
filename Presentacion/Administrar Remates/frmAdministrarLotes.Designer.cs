@@ -520,6 +520,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1089, 657);
             Controls.Add(tabControl1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmAdministrarLotes";
             StartPosition = FormStartPosition.CenterScreen;

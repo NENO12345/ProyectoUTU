@@ -304,6 +304,7 @@
             Controls.Add(list_lotes);
             Controls.Add(list_remates);
             Controls.Add(data_grid_remates);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmAdministrarRemates";
             StartPosition = FormStartPosition.CenterScreen;

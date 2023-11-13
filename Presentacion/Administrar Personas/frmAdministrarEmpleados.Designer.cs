@@ -404,6 +404,7 @@
             Controls.Add(lbl_tituloform);
             Controls.Add(pnl_informacion);
             Controls.Add(data_grid_empleados);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "frmAdministrarEmpleados";
             StartPosition = FormStartPosition.CenterScreen;
